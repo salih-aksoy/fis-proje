@@ -1,0 +1,26 @@
+# Fiþ Proje (Görüntü Ýþleme)
+
+Bu proje, bir fiþ fotoðrafý üzerinde temel görüntü iþleme adýmlarý uygulamak için hazýrlanmýþtýr.
+
+## Amaç
+- Fiþi fotoðraf içinden tespit etmek (fiþi yeþil kutu ile göstermek)
+- Barkod bölgesini tespit edip iþaretlemek
+- Fiþ üzerindeki yazýlarý bulanýklaþtýrmak (gizlilik)
+
+## Kullanýlan Teknolojiler
+- Python
+- OpenCV (cv2)
+- NumPy
+
+## Dosyalar
+- `Fis_proje.ipynb` : Jupyter Notebook dosyasý (tüm iþlemler burada)
+- `fis.png` : Örnek fiþ görseli
+- `output/` : Çýktýlarýn kaydedildiði klasör (otomatik oluþur)
+
+## Kurulum
+Anaconda kullanýyorsan:
+1. Anaconda Navigator ? Jupyter Notebook aç
+2. Notebook’un olduðu klasöre gel
+3. Gerekirse paket kur:
+   ```bash
+   pip install opencv-python numpy
